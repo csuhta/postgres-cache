@@ -4,8 +4,6 @@ class PostgresCache
   # The connection details can either be provided as a string containing a postgres:// URL
   # or as a hash with the keys `:host`, `:port`, `:username`, `:password`,
   # and `:database` as required for your connection.
-  # If the environment variable DATABASE_URL is present, it will be used
-  # to autodiscover credentials.
   def initialize(database_url_or_options = {}, options = {})
     establish_connection(database_url_or_options, options)
     create_cache_table unless self.cache_table_exists?
