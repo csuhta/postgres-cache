@@ -22,8 +22,8 @@ Gem::Specification.new do |s|
   s.add_dependency "rack-cache"
   s.add_dependency "pg"
 
-  s.add_development_dependency "rake", "~> 10"
-  s.add_development_dependency "bundler", "~> 1.3"
+  s.add_development_dependency "rake", "~> 12.3"
+  s.add_development_dependency "bundler", "~> 2"
   s.add_development_dependency "minitest", "~> 5.7"
 
 end
