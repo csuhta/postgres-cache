@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 2.3"
 
-  s.add_dependency "activesupport", "~> 5.0.0"
+  s.add_dependency "activesupport", "~> 5.2"
   s.add_dependency "rack-cache"
   s.add_dependency "pg"
 
